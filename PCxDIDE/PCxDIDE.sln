@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCxDIDE", "PCxDIDE\PCxDIDE.csproj", "{BB951832-8CA0-4359-91F8-BCC929B863F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lexicanalysis", "..\Lexicanalysis\Lexicanalysis\Lexicanalysis.csproj", "{3C38A46E-BC93-490F-AC6D-DCD48C4E02D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelimClass", "..\DelimClass\DelimClass\DelimClass.csproj", "{27585D53-4907-45A0-9161-854A7705DF78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LexemeClass", "..\LexemeClass\LexemeClass\LexemeClass.csproj", "{DFE01884-D041-4B2A-BF07-24EF0306DC0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenClass", "..\TokenClass\TokenClass\TokenClass.csproj", "{72A61526-F7BA-493B-9FC0-3F6D0A21BF45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductionClass", "..\ProductionClass\ProductionClass\ProductionClass.csproj", "{6B39D017-A125-4317-AA2C-12BF6F3ED9F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticAnalyzer", "..\SemanticAnalyzer\SemanticAnalyzer\SemanticAnalyzer.csproj", "{9E3FA4B6-4154-457E-8B67-AEAEC21905F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB951832-8CA0-4359-91F8-BCC929B863F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB951832-8CA0-4359-91F8-BCC929B863F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB951832-8CA0-4359-91F8-BCC929B863F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB951832-8CA0-4359-91F8-BCC929B863F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C38A46E-BC93-490F-AC6D-DCD48C4E02D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C38A46E-BC93-490F-AC6D-DCD48C4E02D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C38A46E-BC93-490F-AC6D-DCD48C4E02D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C38A46E-BC93-490F-AC6D-DCD48C4E02D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27585D53-4907-45A0-9161-854A7705DF78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27585D53-4907-45A0-9161-854A7705DF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27585D53-4907-45A0-9161-854A7705DF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27585D53-4907-45A0-9161-854A7705DF78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE01884-D041-4B2A-BF07-24EF0306DC0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE01884-D041-4B2A-BF07-24EF0306DC0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE01884-D041-4B2A-BF07-24EF0306DC0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE01884-D041-4B2A-BF07-24EF0306DC0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72A61526-F7BA-493B-9FC0-3F6D0A21BF45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A61526-F7BA-493B-9FC0-3F6D0A21BF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A61526-F7BA-493B-9FC0-3F6D0A21BF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A61526-F7BA-493B-9FC0-3F6D0A21BF45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B39D017-A125-4317-AA2C-12BF6F3ED9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B39D017-A125-4317-AA2C-12BF6F3ED9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B39D017-A125-4317-AA2C-12BF6F3ED9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B39D017-A125-4317-AA2C-12BF6F3ED9F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E3FA4B6-4154-457E-8B67-AEAEC21905F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E3FA4B6-4154-457E-8B67-AEAEC21905F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E3FA4B6-4154-457E-8B67-AEAEC21905F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E3FA4B6-4154-457E-8B67-AEAEC21905F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
