@@ -2,6 +2,6 @@
 
 Personal Computer xD Compiler
 
-![PCxD IDE]({{site.baseurl}}/PCxDIDE.jpg)
+![PCxD IDE](PCxDIDE.jpg)
 
 
